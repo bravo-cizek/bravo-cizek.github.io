@@ -1,6 +1,8 @@
 denik 3
 =======
 
+`Zpet na obsah <https://bravo-cizek.github.io/>`_
+
 Dnes jsem se naucil, nainstalovat voidlinux
 -------------------------------------------
 
