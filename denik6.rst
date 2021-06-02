@@ -1,6 +1,8 @@
 denik 6
 =======
 
+`Zpet na obsah <https://bravo-cizek.github.io/>`_
+
 Opakovani
 ---------
 
