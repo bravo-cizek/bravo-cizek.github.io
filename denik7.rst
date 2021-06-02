@@ -1,6 +1,8 @@
 denik 7
 =======
 
+`Zpet na obsah <https://bravo-cizek.github.io/>`_
+
 Git config
 ----------
 
