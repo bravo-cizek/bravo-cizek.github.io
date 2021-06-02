@@ -1,6 +1,8 @@
 denik 4
 =======
 
+`Zpet na obsah <https://bravo-cizek.github.io/>`_
+
 opakovani instalace programu a jejich nasledny config
 ---------------------------------------------------------
 
