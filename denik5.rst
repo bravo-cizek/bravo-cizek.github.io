@@ -1,6 +1,8 @@
 denik 5
 =======
 
+`Zpet na obsah <https://bravo-cizek.github.io/>`_
+
 Dnes jsem se naucil pripojit se k wifi a prizpusobit si rozliseni.
 ------------------------------------------------------------------
 
