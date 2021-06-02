@@ -1,6 +1,8 @@
 Zaznam deniku 1.
 ================
 
+`Zpet na obsah <https://bravo-cizek.github.io/>`_
+
 - Dnes jsem dostal za ukol si te zalozit, abych si pamatoval, co uz jsem jednou delal a co jsem se naucil.
 
 - Dnes jsem dostal za ukol tri ukoly.
