@@ -1,6 +1,10 @@
 denik 6 v ascii docu
 =====================
 
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+
+
 Opakovani
 ---------
 
