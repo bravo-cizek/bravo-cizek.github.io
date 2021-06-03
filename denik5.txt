@@ -1,7 +1,7 @@
 denik 5
 =======
 
-`Zpet na obsah <https://bravo-cizek.github.io/>`_
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
 
 Dnes jsem se naucil pripojit se k wifi a prizpusobit si rozliseni.
 ------------------------------------------------------------------
@@ -10,7 +10,7 @@ Dnes jsem se naucil pripojit se k wifi a prizpusobit si rozliseni.
 -------
 
 - v /etc/wpa_supplicant, vytvorit wpa_supplicant.conf
-- do wpa_supplicant.conf ::
+- do wpa_supplicant.conf:: 
 
         ctrl_interface=/run/wpa_supplicant
         ctrl_interface_group=wheel
@@ -25,17 +25,17 @@ Dnes jsem se naucil pripojit se k wifi a prizpusobit si rozliseni.
           psk="heslo"
           }
                            
-- pokud se nechce pripojit, da se vyuzit prikaz > ``sudo wpa_supplicant -B -i wlp00s0 -c /etc/wpa_supplicant/wpa_supplicant.conf``
-- wlp00s0 = jmeno site, da se zjistit pomoci > ``ip a``
+- pokud se nechce pripojit, da se vyuzit prikaz > _sudo wpa_supplicant -B -i wlp00s0 -c /etc/wpa_supplicant/wpa_supplicant.conf_
+- wlp00s0 = jmeno site, da se zjistit pomoci > _ip a_
 
 
 2. Rozliseni
-------------
+~~~~~~~~~~~~
 
-- Pro trvale ulozeni rozliseni > ``vim ~/.xinitrc``
-- staci zapsat dve radky kodu ::
+- Pro trvale ulozeni rozliseni > _vim ~/.xinitrc_
+- staci zapsat dve radky kodu::
   
         xrandr -q
         xrandr --output "nazev vystupu" --mode rozliseni (1600x900)
 
-- Poznamka, ``xrandr -q`` je tam z duvodu toho, ze bez nej, to z nejakeho duvodu nefunguje.
+- Poznamka, _xrandr -q_ je tam z duvodu toho, ze bez nej, to z nejakeho duvodu nefunguje.

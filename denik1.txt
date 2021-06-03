@@ -1,0 +1,13 @@
+zaznam deniku 1.
+================
+
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+- Dnes jsem dostal za ukol si te zalozit, abych si pamatoval, co uz jsem jednou delal a co jsem se naucil.
+
+- [underline]#Dnes jsem dostal za ukol tri ukoly:#
+1. zalozit si github pages.
+2. precist si manual od reStructuredText.
+3. stahnout si python-docutils.
+
+- Vsechny zaznamy budu pushovat do sveho repa

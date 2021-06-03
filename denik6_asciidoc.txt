@@ -14,22 +14,23 @@ Opakovani
 
 - [underline]#kompilace programu zahrnuje#
   
-* a) assembly, assembler
-** b) kompilaci
-*** c) linkovani
+1. assembly, assembler
+2. kompilaci
+3. linkovani
  
 
-- [red]#priklad# ::
+- [red]#priklad#::
 
                 cc- o csgo.exe csgo.c
                 object file -c flag
+
 - kompilator si musi overit zahlavi, zahlavi = prototyp
 - protoyp se dodava pomoci hlavicky _include_
 - narocne na pamet,procesor a cas.
 
 
 MakeFile
-~~~~~~~~
+---------
 
 - csgo.exe zavisi na: _main.o\str.o\net.o_
 - pokud je hlavicka (include) zavisi i na nich.
@@ -38,7 +39,7 @@ MakeFile
 
 
 Eviron - user environment
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 - je deklarovany v _<unistd.h>_
 
@@ -57,7 +58,7 @@ Eviron - user environment
 
 
 tmpdir
-++++++
+~~~~~~
 
 - ovlivnuje cesty prefixu jmen vytvorenych _tempnam_ a _tempdiru_ vyuzivanych Sort programem a jinymi.
 
@@ -65,15 +66,15 @@ tmpdir
 
 
 Ruzne vysvetlivky
-+++++++++++++++++
+^^^^^^^^^^^^^^^^^
 
 - WildCard umoznuje zapsat jednim vyrazem vetsi mnozstvi retezcu, napr. jmen souboru atd.
 
 - Find umoznuje prohledavani adresaru nebo souboru, prikaz umoznuje urcit vlastnosti hledaneho objektu (napr. velikost, cast nazvu, atd.)
-- syntaxe findu ::
+- syntaxe findu::
 
                    find {cesta} {hledany vyraz} {co s tim ma delat}
-- priklad kdy find najde vsechny .txt soubory, ktere jsou starsi nez osm dnu ::
+- priklad kdy find najde vsechny .txt soubory, ktere jsou starsi nez osm dnu::
 
                 find {cesta} - type f -name *.txt -mtime +8
 

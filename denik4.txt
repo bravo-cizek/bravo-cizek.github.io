@@ -1,0 +1,24 @@
+denik 4
+=======
+
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+opakovani instalace programu a jejich nasledny config
+-----------------------------------------------------
+
+- instalace programu pomoci _xbps-install_
+- config souboru, zatim mi staci stahnout si configy od romana z githubu
+- nasledne je dulezite tyhle soubory rozkopirovat na spravna mista!!:: 
+
+    for x in vim i3 zsh xorg; do
+      git clone https://github.com/roman-neuhauser/dotfiles-$x
+      cp -rp dotfiles-$x/.* ~/
+    done
+
+
+config i3 window manageru
+-------------------------
+
+- zatim staci zkopirovat config od romana z link:https://github.com/roman-neuhauser/dotfiles-i3/[Githubu]
+- nasledne ho ulozit do _~/.config/i3/config_
+- samozrejme si ho muzu prizpusobit sam, staci si ve vimu otevrit config _vim ~/.config/i3/config_ 

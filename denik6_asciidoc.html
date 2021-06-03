@@ -771,44 +771,55 @@ strcmp = string compare
 <p>
 <span class="underline">kompilace programu zahrnuje</span>
 </p>
-<div class="ulist"><ul>
+<div class="olist arabic"><ol class="arabic">
 <li>
 <p>
-a) assembly, assembler
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-b) kompilaci
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-c) linkovani
+assembly, assembler
 </p>
 </li>
-</ul></div>
-</li>
-</ul></div>
-</li>
-</ul></div>
+<li>
+<p>
+kompilaci
+</p>
 </li>
 <li>
 <p>
-<span class="red">priklad</span> ::
+linkovani
+</p>
+</li>
+</ol></div>
+</li>
+<li>
+<p>
+<span class="red">priklad</span>::
 </p>
 <div class="literalblock">
 <div class="content">
-<pre><code>                cc- o csgo.exe csgo.c
-                object file -c flag
-- kompilator si musi overit zahlavi, zahlavi = prototyp
-- protoyp se dodava pomoci hlavicky _include_
-- narocne na pamet,procesor a cas.</code></pre>
+<pre><code>cc- o csgo.exe csgo.c
+object file -c flag</code></pre>
 </div></div>
 </li>
+<li>
+<p>
+kompilator si musi overit zahlavi, zahlavi = prototyp
+</p>
+</li>
+<li>
+<p>
+protoyp se dodava pomoci hlavicky <em>include</em>
+</p>
+</li>
+<li>
+<p>
+narocne na pamet,procesor a cas.
+</p>
+</li>
 </ul></div>
-<div class="sect2">
-<h3 id="_makefile">MakeFile</h3>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_makefile">MakeFile</h2>
+<div class="sectionbody">
 <div class="ulist"><ul>
 <li>
 <p>
@@ -826,8 +837,11 @@ GUID = globaly unique identifier. GUID = UUID
 </p>
 </li>
 </ul></div>
-<div class="sect3">
-<h4 id="_eviron_user_environment">Eviron - user environment</h4>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_eviron_user_environment">Eviron - user environment</h2>
+<div class="sectionbody">
 <div class="ulist"><ul>
 <li>
 <p>
@@ -877,8 +891,8 @@ c  program muze manipulovat se svym prostredim pouzitim funkci:
 </ol></div>
 </li>
 </ul></div>
-<div class="sect4">
-<h5 id="_tmpdir">tmpdir</h5>
+<div class="sect2">
+<h3 id="_tmpdir">tmpdir</h3>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -891,9 +905,8 @@ posix definuje rozhrani na unixech, aby byli programy <em>prenositelne</em> na r
 </p>
 </li>
 </ul></div>
-</div>
-<div class="sect4">
-<h5 id="_ruzne_vysvetlivky">Ruzne vysvetlivky</h5>
+<div class="sect3">
+<h4 id="_ruzne_vysvetlivky">Ruzne vysvetlivky</h4>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -907,12 +920,12 @@ Find umoznuje prohledavani adresaru nebo souboru, prikaz umoznuje urcit vlastnos
 </li>
 <li>
 <p>
-syntaxe findu ::
+syntaxe findu::
 </p>
 <div class="literalblock">
 <div class="content">
 <pre><code>                   find {cesta} {hledany vyraz} {co s tim ma delat}
-- priklad kdy find najde vsechny .txt soubory, ktere jsou starsi nez osm dnu ::</code></pre>
+- priklad kdy find najde vsechny .txt soubory, ktere jsou starsi nez osm dnu::</code></pre>
 </div></div>
 <div class="literalblock">
 <div class="content">
@@ -940,12 +953,11 @@ promenna pro vsechny argumenty <em>$@</em>
 </div>
 </div>
 </div>
-</div>
 <div id="footnotes"><hr /></div>
 <div id="footer">
 <div id="footer-text">
 Last updated
- 2021-06-02 16:26:05 CEST
+ 2021-06-03 15:09:39 CEST
 </div>
 </div>
 </body>
