@@ -6,6 +6,5 @@ Obsah meho blogu
 - link:https://bravo-cizek.github.io/denik3.html[Denik3]
 - link:https://bravo-cizek.github.io/denik4.html[Denik4]
 - link:https://bravo-cizek.github.io/denik5.html[Denik5]
-- link:https://bravo-cizek.github.io/denik6.html[Denik6]
-- link:https://bravo-cizek.github.io/denik6_asciidoc.html[Denik6 v ascii docu]
+- link:https://bravo-cizek.github.io/denik6_asciidoc.html[Denik6]
 - link:https://bravo-cizek.github.io/denik7.html[Denik7]
