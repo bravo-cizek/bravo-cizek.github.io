@@ -1,0 +1,85 @@
+denik 6. v ascii docu
+=====================
+
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+
+
+Opakovani
+---------
+
+- program je spustitelny soubor, na win pripona .exe, na unixech bez pripony. Stavaji se spustitelnymi pomoci _chmod + x_
+- program se sklada z jedne nebo dvou funkci, podle toho jak je napsany a zaroven podle op
+- strcmp = string compare
+
+- [underline]#kompilace programu zahrnuje#
+  
+1. assembly, assembler
+2. kompilaci
+3. linkovani
+ 
+
+- [red]#priklad#::
+
+                cc- o csgo.exe csgo.c
+                object file -c flag
+
+- kompilator si musi overit zahlavi, zahlavi = prototyp
+- protoyp se dodava pomoci hlavicky _include_
+- narocne na pamet,procesor a cas.
+
+
+MakeFile
+---------
+
+- csgo.exe zavisi na: _main.o\str.o\net.o_
+- pokud je hlavicka (include) zavisi i na nich.
+
+- GUID = globaly unique identifier. GUID = UUID
+
+
+Eviron - user environment
+-------------------------
+
+- je deklarovany v _<unistd.h>_
+
+- Eviron je zacinajici prostredi v shellu, je ulozeny "osidleny" v ruznych cestach.
+- jako definice z _etc/env_ ktere jsou spousteny z _pam_env_ pro vsechny uzivatele v log timeu.
+
+- argumenty mohou byt vlozeny do env v pripade pouziti _exec_ 
+
+- c  program muze manipulovat se svym prostredim pouzitim funkci: 
+
+
+1. [blue]#getenv#
+2. [blue]#putenv#
+3. [blue]#setenv#
+4. [blue]#unsetenv#
+
+
+tmpdir
+~~~~~~
+
+- ovlivnuje cesty prefixu jmen vytvorenych _tempnam_ a _tempdiru_ vyuzivanych Sort programem a jinymi.
+
+- posix definuje rozhrani na unixech, aby byli programy _prenositelne_ na ruzne HW.
+
+
+Ruzne vysvetlivky
+^^^^^^^^^^^^^^^^^
+
+- WildCard umoznuje zapsat jednim vyrazem vetsi mnozstvi retezcu, napr. jmen souboru atd.
+
+- Find umoznuje prohledavani adresaru nebo souboru, prikaz umoznuje urcit vlastnosti hledaneho objektu (napr. velikost, cast nazvu, atd.)
+- syntaxe findu::
+
+                   find {cesta} {hledany vyraz} {co s tim ma delat}
+- priklad kdy find najde vsechny .txt soubory, ktere jsou starsi nez osm dnu::
+
+                find {cesta} - type f -name *.txt -mtime +8
+
+- promenna pro vsechny argumenty _$@_
+- _DWP_ v prikazove radce prohodi znaky
+- _ctrl xl_ nabidka pouzitych vyrazu >> _ctrl j_ nabidku potvrdi
+
+
