@@ -1,0 +1,7 @@
+denik 2.
+=======
+
+
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+- Dnes jsem se naucil nainstalovat void-linux, abych nezapomnel > postup: stahnout iso, na usb prst se pretahne pomoci prikazu dd >(sudo dd if=soubor of=cesta kam ulozit, status-progress)
