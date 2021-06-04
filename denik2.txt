@@ -1,5 +1,5 @@
 denik 2.
-=======
+========
 
 
 - link:https://bravo-cizek.github.io/[Zpet na obsah]
