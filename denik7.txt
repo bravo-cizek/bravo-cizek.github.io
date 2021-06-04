@@ -1,0 +1,28 @@
+denik 7.
+=======
+
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+Git config
+----------
+
+- Tak samozrejme prvnim krokem je, instalace gitu. Nasleduje config user nameu a user emailu::
+
+
+                git config --global user.name "jmeno"
+                git config --global user.email "email"
+
+- Dalsim krokem je nastaveni ssh, nejdrive se muzu podivat jestli nejaky uz neexistuje v _~/.ssh/_
+- Pokud neexistuje, tak si ho musime vyrobit _ssh-keygen -t rsa -C "muj_email@priklad.com_
+- Nyni si samozrejme musim ten klic zkopirovat na svuj github.
+- pro tuto prilezitost jsem vyuzil _xclip_, jelikoz mi nefungovalo vlozeni pomoci leveho a praveho tlacitka::
+
+        xclip -sel clip < ~/.ssh/id_rsa.pub
+
+- nasledovalo vlozeni ssh klice na muj github
+
+- pro test spojeni jsem vyuzil _ssh -T git@github.com_ vyhodilo mi to varovani, ale po procteni link:https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection/[manualu], jsem zjistil ze je vse v poradku.
+
+- nasledovalo _git init_ pro vytovreni prazdneho git repa.
+- a zkopirovani configu od romana z link:https://github.com/roman-neuhauser/dotfiles-git/[Githubu]
+ 
