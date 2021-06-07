@@ -9,7 +9,7 @@ clean:
 
 .PHONY: git
 git:		
-	git add *.txt *.html
+	git add . 
 	git commit -e
 	git push --force -u origin master
 
