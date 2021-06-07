@@ -1,5 +1,6 @@
 denik 1.
 ========
+
 - link:https://bravo-cizek.github.io/[Zpet na obsah]
 
 - Dnes jsem dostal za ukol si te zalozit, abych si pamatoval, co uz jsem jednou delal a co jsem se naucil.
