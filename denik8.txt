@@ -1,0 +1,34 @@
+denik8
+======
+
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+
+Dnes jsem se naucil delat makefile
+----------------------------------
+
+- delal jsem makefile, za ucelem ulehceni si prace se svym blogem.
+
+- muj makefile ma za ukol to, ze konvertuje [red]#.txt# soubory na [red]#.html# soubory a nasledne je prida, zacommiti a pushne na muj github.
+
+- [blue]#takto vypada#:: 
+
+			.PHONY: all
+			all: $(patsubst %.txt,%.html,$(wildcard *.txt))
+			.PHONY: clean
+			clean: 
+				rm -f *.html
+			%.html: %.txt
+				asciidoc $<
+			.PHONY: git
+			git:
+				git add *.txt *.html
+				git commit -e
+				git push -u origin master
+
+
+
+
+
+
+

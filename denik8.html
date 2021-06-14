@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 <meta name="generator" content="AsciiDoc 9.1.0" />
-<title>Obsah meho blogu</title>
+<title>denik8</title>
 <style type="text/css">
 /* Shared CSS for AsciiDoc xhtml11 and html5 backends */
 
@@ -734,7 +734,7 @@ asciidoc.install();
 </head>
 <body class="article">
 <div id="header">
-<h1>Obsah meho blogu</h1>
+<h1>denik8</h1>
 </div>
 <div id="content">
 <div id="preamble">
@@ -742,43 +742,45 @@ asciidoc.install();
 <div class="ulist"><ul>
 <li>
 <p>
-<a href="https://bravo-cizek.github.io/denik1.html">Denik1</a>
+<a href="https://bravo-cizek.github.io/">Zpet na obsah</a>
+</p>
+</li>
+</ul></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dnes_jsem_se_naucil_delat_makefile">Dnes jsem se naucil delat makefile</h2>
+<div class="sectionbody">
+<div class="ulist"><ul>
+<li>
+<p>
+delal jsem makefile, za ucelem ulehceni si prace se svym blogem.
 </p>
 </li>
 <li>
 <p>
-<a href="https://bravo-cizek.github.io/denik2.html">Denik2</a>
+muj makefile ma za ukol to, ze konvertuje <span class="red">.txt</span> soubory na <span class="red">.html</span> soubory a nasledne je prida, zacommiti a pushne na muj github.
 </p>
 </li>
 <li>
 <p>
-<a href="https://bravo-cizek.github.io/denik3.html">Denik3</a>
+<span class="blue">takto vypada</span>::
 </p>
-</li>
-<li>
-<p>
-<a href="https://bravo-cizek.github.io/denik4.html">Denik4</a>
-</p>
-</li>
-<li>
-<p>
-<a href="https://bravo-cizek.github.io/denik5.html">Denik5</a>
-</p>
-</li>
-<li>
-<p>
-<a href="https://bravo-cizek.github.io/denik6.html">Denik6</a>
-</p>
-</li>
-<li>
-<p>
-<a href="https://bravo-cizek.github.io/denik7.html">Denik7</a>
-</p>
-</li>
-<li>
-<p>
-<a href="https://bravo-cizek.github.io/denik8.html">Denik8</a>
-</p>
+<div class="literalblock">
+<div class="content">
+<pre><code>.PHONY: all
+all: $(patsubst %.txt,%.html,$(wildcard *.txt))
+.PHONY: clean
+clean:
+        rm -f *.html
+%.html: %.txt
+        asciidoc $&lt;
+.PHONY: git
+git:
+        git add *.txt *.html
+        git commit -e
+        git push -u origin master</code></pre>
+</div></div>
 </li>
 </ul></div>
 </div>
@@ -788,7 +790,7 @@ asciidoc.install();
 <div id="footer">
 <div id="footer-text">
 Last updated
- 2021-06-14 10:33:31 CEST
+ 2021-06-14 10:34:34 CEST
 </div>
 </div>
 </body>

@@ -8,3 +8,5 @@ Obsah meho blogu
 - link:https://bravo-cizek.github.io/denik5.html[Denik5]
 - link:https://bravo-cizek.github.io/denik6.html[Denik6]
 - link:https://bravo-cizek.github.io/denik7.html[Denik7]
+- link:https://bravo-cizek.github.io/denik8.html[Denik8]
+
