@@ -1,0 +1,26 @@
+denik9
+======
+
+- link:https://bravo-cizek.github.io/[Zpet na obsah]
+
+Dnes jsem se ucil delat testy
+-----------------------------
+
+- kdyz si nejsem jisty co nejaky command znamena, muzu si ho napsat do funkce v terminalu a pouzit ho tam.
+
+- kdyz chci videt z vysledku testu co se tam vlastne deje, muzu puzit _typeset -p_
+
+- _"$@"_ znamena vsechny command line agrgumenty, ktere vypise presne jak je dostal.
+
+- _"$*"_ znamena totez jako _"$@"_ ale rozdil je v tom, ze vypise vsechny argumenty ktere dostal, jako jeden argument, oddeleny single spacem.
+
+- _shift_ je builtin command v shellu, ktery dela to, ze potom co je spusten "presune" cmd argument o jeden do leva, prvni argument je ztracen
+
+- jde pouzit i jako _shift n_ kde _n_ je cislo o ktere se "presune"
+
+- pri pouziti _shift -p_ se dany argument odstrani od konce, nez od zacatku.
+
+case,esac
+~~~~~~~~~
+- case a esac "nahrazuje" if a elif, je to udaj ktery ma posoudit a execnout nejake mnozstvi ruznych statementu.
+
